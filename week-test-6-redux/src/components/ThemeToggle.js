@@ -16,7 +16,7 @@ const ThemeToggle = () => {
         marginTop:"20px",
       }}>
       <button onClick={handleThemeChange}>
-        Toggle Theme to : {theme === 'light' ? 'Light' : 'Dark'}
+        Toggle Theme to : {theme === 'light' ? 'Dark' : 'Light'}
       </button>
     </div>
   );
